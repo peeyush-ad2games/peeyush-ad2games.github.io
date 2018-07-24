@@ -338,5 +338,12 @@
 		<script src="vendor/jquery-3.2.1.slim.min.js"></script>
 		<script src="vendor/popper.min.js"></script>
 		<script src="vendor/bootstrap.min.js"></script>
+
+		<script>
+			if('serviceWorker' in navigator) {
+			  navigator.serviceWorker.register('/sw.js')
+			}
+		</script>
+
 	</body>
 </html>
