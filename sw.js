@@ -7,10 +7,10 @@ self.addEventListener('install', function(e) {
         '/',
         '/index.html',
         '/css/custom.css',
-        '/css/Nunito-Bold.ttf'
-        '/css/Nunito-Regular.ttf'
-        '/css/OFL.txt'
-        '/css/custom.css'
+        '/css/Nunito-Bold.ttf',
+        '/css/Nunito-Regular.ttf',
+        '/css/OFL.txt',
+        '/css/custom.css',
         '/vendor/bootstrap.min.css',
         '/vendor/bootstrap.min.js',
         '/vendor/jquery-3.2.1.slim.min.js',
